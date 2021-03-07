@@ -5,9 +5,8 @@
 
 chmod +x gradlew
 
-# Before doing anything, install all the tools needed to run commands
-# might not be totally necessary?
-./gradlew installAllTools
+# Before doing anything, install all the tools needed to build files and such
+./gradlew installRoboRioToolchain
 
 # Check for correct build command
 if [ "$1" = "build" ]; then
