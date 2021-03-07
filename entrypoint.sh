@@ -5,6 +5,10 @@
 
 chmod +x gradlew
 
+# Before doing anything, install all the tools needed to run commands
+# might not be totally necessary?
+./gradlew installAllTools
+
 # Check for correct build command
 if [ "$1" = "build" ]; then
     echo "Running only build task"
