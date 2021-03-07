@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
 # Init gradle
-/opt/gradle/gradle-5.0/bin/gradle wrapper
+/opt/gradle/gradle-6.0.1/bin/gradle wrapper
 
 chmod +x gradlew
 
@@ -19,6 +19,7 @@ fi
 if [ "$1" = "all" ]; then
     echo "Running all tasks"
     ./gradlew test
+    echo "Finished test task succesfully, moving on to build task"
     ./gradlew build
 fi
 

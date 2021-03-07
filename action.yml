@@ -1,9 +1,9 @@
 name: 'FRC Build & Test'
-description: 'Automatically build and test your FRC robot projects'
+description: 'Automatically build and test your FRC robot projects hopefully?'
 branding:
   icon: 'check-square'
   color: 'purple'
-author: 'ewpratten'
+author: 'ewpratten + matgenius04'
 
 inputs: 
   build_mode:
